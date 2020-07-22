@@ -2,7 +2,7 @@
 
 
 def canUnlockAll(boxes):
-    """ figures out if all boxes can be opened """
+    """ lockbox algorithm  """
     is_locked = [False for i in range(len(boxes))]
     is_locked[0] = True
     checker = [0]
